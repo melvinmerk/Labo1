@@ -17,7 +17,7 @@ Compilateur : MinGW-g++ 6.3.0
 
 #include "Couleur.h"
 
-const std::vector<std::string> Couleur::LISTE_COULEUR = {"rouge", "bleu", "vert"};
+const std::vector<std::string> Couleur::LISTE_COULEUR({"rouge", "bleu", "vert"});
 
 Colors Couleur::getCouleur() const {
     return this->color;

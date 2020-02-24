@@ -1,13 +1,14 @@
 /*
 -----------------------------------------------------------------------------------
 Laboratoire : 01
-Fichier     : Vecteur.h
+Fichier     : Carre.h
 Groupe      : Labo_01_E
 Auteur(s)   : Melvin Merk, Gabrielle Thurnherr
 Date        : 24.02.2020
 
-But         : ce fichier contient la déclaration de classe vecteur ainsi que la
-							définition de ses constructeurs
+But         : Ce ficier contient la déclaration des métohdes de la classe Carre
+              Ainsi que l'implémentation des constructeurs, car ceux-ci sont simple
+
 
 Remarque(s) : -
 

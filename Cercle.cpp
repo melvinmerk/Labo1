@@ -1,13 +1,12 @@
 /*
 -----------------------------------------------------------------------------------
 Laboratoire : 01
-Fichier     : Vecteur.h
+Fichier     : Cercle.h
 Groupe      : Labo_01_E
 Auteur(s)   : Melvin Merk, Gabrielle Thurnherr
 Date        : 24.02.2020
 
-But         : ce fichier contient la déclaration de classe vecteur ainsi que la
-							définition de ses constructeurs
+But         : Ce fichier contient la définition des méthodes de la classe Cercle.
 
 Remarque(s) : -
 
