@@ -3,6 +3,7 @@
 #define LABO1_COULEUR_H
 
 #include <iostream>
+#include <vector>
 
 enum class Colors {
     ROUGE, VERT, BLEU
@@ -19,6 +20,7 @@ public:
 
 private:
     Colors color;
+    static const std::vector<std::string> LISTE_COULEUR;
 };
 
 

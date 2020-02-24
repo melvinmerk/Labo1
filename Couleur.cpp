@@ -4,6 +4,8 @@
 
 #include "Couleur.h"
 
+const std::vector<std::string> Couleur::LISTE_COULEUR = {"rouge", "bleu", "vert"};
+
 Colors Couleur::getCouleur() const {
     return this->color;
 }
@@ -13,23 +15,6 @@ void Couleur::setCouleur(Colors color) {
 }
 
 std::ostream& operator<<(std::ostream& os, const Couleur& couleur) {
-
-    switch (couleur.color) {
-        case Colors::ROUGE:
-            os << "Rouge";
-            break;
-
-        case Colors::BLEU:
-            os << "Bleu";
-            break;
-
-        case Colors::VERT:
-            os << "Vert";
-            break;
-
-        default:
-            os << "Indefini";
-    }
-
+    os << Couleur::LISTE_COULEUR.at((size_t)couleur.color);
     return os;
 }
