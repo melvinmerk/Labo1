@@ -4,16 +4,18 @@
 
 #include <iostream>
 
+enum class Colors {
+    ROUGE, VERT, BLEU
+};
+
 class Couleur {
     friend std::ostream& operator<<(std::ostream& os, const Couleur& couleur);
 public:
     // Constructeur par défaut
     Couleur() : color(Colors::ROUGE) {};
 
-    enum class Colors { ROUGE, VERT, BLEU};
-
     Colors getCouleur() const;
-    void setCouleur(const Colors& couleur);
+    void setCouleur(Colors couleur);
 
 private:
     Colors color;
