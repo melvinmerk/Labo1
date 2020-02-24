@@ -1,6 +1,19 @@
-//
-// Created by Melvin on 20/02/2020.
-//
+/*
+-----------------------------------------------------------------------------------
+Laboratoire : 01
+Fichier     : Vecteur.h
+Groupe      : Labo_01_E
+Auteur(s)   : Melvin Merk, Gabrielle Thurnherr
+Date        : 24.02.2020
+
+But         : ce fichier contient la déclaration de classe vecteur ainsi que la
+							définition de ses constructeurs
+
+Remarque(s) : -
+
+Compilateur : MinGW-g++ 6.3.0
+-----------------------------------------------------------------------------------
+ */
 
 #include "Cercle.h"
 #include <cmath> // Pour M_PI
@@ -8,6 +21,7 @@
 double Cercle::getRayon() const {
     return this->rayon;
 }
+
 void  Cercle::setRayon(double rayon) {
     this->rayon = rayon;
 }
@@ -15,6 +29,7 @@ void  Cercle::setRayon(double rayon) {
 Couleur Cercle::getCouleur() const {
     return this->couleur;
 }
+
 void Cercle::setCouleur(const Couleur &couleur) {
     this->couleur = couleur;
 }
