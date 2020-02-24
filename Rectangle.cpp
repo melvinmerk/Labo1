@@ -33,7 +33,8 @@ double Rectangle::getSurface() const {
 }
 
 std::ostream& operator<<(std::ostream& os, const Rectangle& rectangle) {
-    os  << "Largeur: " << rectangle.largeur
+    os  << "Rectangle = "
+        << " Largeur: " << rectangle.largeur
         << " Longueur: " << rectangle.longueur
         << " Surface: " << rectangle.getSurface()
         << " Couleur: " << rectangle.couleur;

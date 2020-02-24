@@ -23,7 +23,8 @@ double Carre::getSurface() const {
 }
 
 std::ostream& operator<<(std::ostream& os, const Carre& carre) {
-    os  << "Cote: " << carre.cote
+    os  << "Carre = "
+        << " Cote: " << carre.cote
         << " Surface: " << carre.getSurface()
         << " Couleur: " << carre.couleur;
 

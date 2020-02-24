@@ -33,7 +33,8 @@ double Triangle::getSurface() const {
 }
 
 std::ostream& operator<<(std::ostream& os, const Triangle& triangle) {
-    os  << "Base: " << triangle.base
+    os  << "Triangle = "
+        << " Base: " << triangle.base
         << " Hauteur: " << triangle.hauteur
         << " Surface: " << triangle.getSurface()
         << " Couleur: " << triangle.couleur;

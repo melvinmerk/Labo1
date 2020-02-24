@@ -24,7 +24,8 @@ double Cercle::getSurface() const {
 }
 
 std::ostream& operator<<(std::ostream& os, const Cercle& cercle) {
-    os  << "Rayon: " << cercle.rayon
+    os  << "Cercle = "
+        << " Rayon: " << cercle.rayon
         << " Surface: " << cercle.getSurface()
         << " Couleur: " << cercle.couleur;
     return os;
