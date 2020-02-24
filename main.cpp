@@ -1,6 +1,9 @@
 #include <iostream>
 
 #include "Carre.h"
+#include "Rectangle.h"
+#include "Cercle.h"
+#include "Triangle.h"
 
 using namespace std;
 
@@ -10,10 +13,22 @@ int main() {
 
     couleur.setCouleur(Colors::BLEU);
 
-    Carre c1;
-    Carre c2(5.0, couleur);
+    Carre ca1;
+    Carre ca2(5.0, couleur);
 
-    cout << c1 << endl <<  c2 << endl;
+    cout << ca1 << endl << ca2 << endl;
+
+    Rectangle r1;
+    Rectangle r2(5, 3, couleur);
+
+
+    Cercle ce1;
+    Cercle ce2(3, couleur);
+
+
+    Triangle t1;
+    Triangle t2(6, 2, couleur);
+
 
     return EXIT_SUCCESS;
 }

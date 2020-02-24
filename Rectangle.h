@@ -5,8 +5,6 @@
 #ifndef LABO1_RECTANGLE_H
 #define LABO1_RECTANGLE_H
 
-
-
 #include "Couleur.h"
 
 class Rectangle {
