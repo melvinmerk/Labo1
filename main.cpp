@@ -1,13 +1,12 @@
 /*
 -----------------------------------------------------------------------------------
 Laboratoire : 01
-Fichier     : Vecteur.h
+Fichier     : main.cpp
 Groupe      : Labo_01_E
 Auteur(s)   : Melvin Merk, Gabrielle Thurnherr
 Date        : 24.02.2020
 
-But         : ce fichier contient la déclaration de classe vecteur ainsi que la
-							définition de ses constructeurs
+But         : ce fichier nous permet de tester le bon fonctionnement de nos classes.
 
 Remarque(s) : -
 

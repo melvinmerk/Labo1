@@ -1,13 +1,13 @@
 /*
 -----------------------------------------------------------------------------------
 Laboratoire : 01
-Fichier     : Vecteur.h
+Fichier     : Triangle.cpp
 Groupe      : Labo_01_E
 Auteur(s)   : Melvin Merk, Gabrielle Thurnherr
 Date        : 24.02.2020
 
-But         : ce fichier contient la déclaration de classe vecteur ainsi que la
-							définition de ses constructeurs
+But         : ce fichier contient la définition des méthodes de la classe Triangle. Elle nous
+              permet de créer des formes de type triangle.
 
 Remarque(s) : -
 
@@ -33,12 +33,12 @@ void Triangle::setHauteur(double hauteur) {
     this->hauteur = hauteur;
 }
 
-void Triangle::setCouleur(const Couleur &couleur) {
-    this->couleur = couleur;
-}
-
 Couleur Triangle::getCouleur() const {
     return this->couleur;
+}
+
+void Triangle::setCouleur(const Couleur &couleur) {
+    this->couleur = couleur;
 }
 
 double Triangle::getSurface() const {

@@ -1,13 +1,13 @@
 /*
 -----------------------------------------------------------------------------------
 Laboratoire : 01
-Fichier     : Vecteur.h
+Fichier     : Couleur.h
 Groupe      : Labo_01_E
 Auteur(s)   : Melvin Merk, Gabrielle Thurnherr
 Date        : 24.02.2020
 
-But         : ce fichier contient la déclaration de classe vecteur ainsi que la
-							définition de ses constructeurs
+But         : Ce fichier contient la déclaration de la classe Couleur, comportant un constructeur par défaut
+              défini et déclaré, ainsi que la déclaration de ses setters et getters simples.
 
 Remarque(s) : -
 
@@ -35,8 +35,8 @@ public:
     void setCouleur(Colors couleur);
 
 private:
-    Colors color;
     static const std::vector<std::string> LISTE_COULEUR;
+    Colors color;
 };
 
 
